@@ -1,0 +1,159 @@
+/* style.css */
+body {
+  font-family: 'Muli', sans-serif;
+  color: #262423;
+  font-size: 17px;
+  background-color: #F1F1F1;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: left;
+}
+
+.banner h1 {
+  color: #3BA295;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7vw;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  padding-left: 2.3vw;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 2.3vw;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.button-circle-container {
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+.button-circle {
+  height: 110px;
+  width: 110px;
+  padding-top: 43px;
+  padding-bottom: 43px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: #F8CDCD;
+  color: #262423;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  transition: .3s;
+  display: inline-block;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 30px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: left;
+}
+
+.card-white p {
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.card-white a {
+  text-decoration: none;
+  color: #262423;
+}
+
+.footer {
+  background: #F8CDCD;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+/* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+/* color: #F8CDCD; for pink */
